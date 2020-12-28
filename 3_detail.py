@@ -14,10 +14,11 @@ content = div_content.get_text().strip()
 
 
 # todo: this is important
-# content = content.encode('cp1252', 'ignore').decode('cp936', 'ignore')
+# content = content.encode('cp1252', 'ignore').decode('gb2312', 'ignore')
 
 
-content = content.encode('cp1252', 'ignore').decode('gb2312', 'ignore')
+# content = content.encode('ISO-8859-1', 'ignore').decode('gb2312', 'ignore')
+content = content.encode('latin-1', 'ignore').decode('gb2312', 'ignore')
 
 
 
