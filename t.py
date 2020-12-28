@@ -1,6 +1,9 @@
 import codecs
+import re
 
-file_txt = '1.txt'
+a = '205,355,304'
 
-a = codecs.open(file_txt)
-print(a)
+b = int(a)
+print(b)
+
+
